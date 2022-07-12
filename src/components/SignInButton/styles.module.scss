@@ -2,7 +2,6 @@
   height: 3rem;
   border-radius: 3rem;
   background: var(--gray-850);
-
   border: 0;
   padding: 0 1.5rem;
 
@@ -14,20 +13,23 @@
   font-weight: bold;
 
   svg {
-    width:20px;
-    height:20px;
-  }
-
-  svg.closeIcon{
-    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
   }
 
   svg:first-child {
-    margin-right: 1rem;
+    margin-right: 1rem; 
   }
+
+  svg.closeIcon {
+    margin-left: 1rem;
+  }
+
   transition: filter 0.2s;
 
-  &:hover{
-    filter:brightness(0.8)
+  &:hover {
+    filter: brightness(0.8);
   }
 }
+
+
